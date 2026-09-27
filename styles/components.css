@@ -1,0 +1,53 @@
+:root {
+    --background-text: hsl(150, 5%, 9%);
+    --button-text:  hsl(154, 41%, 90%);
+
+
+    --primary-button:  hsl(182, 100%, 31%);
+    --primary-button-hover:  hsl(182, 100%, 26%);
+    --primary-button-pressed:  hsl(182, 100%, 14%);
+    --primary-button-disabled:  hsl(182, 20%, 64%);
+
+    --secondary-button-stroke:  hsl(182, 100%, 21%);
+    --secondary-button-fill:  hsl(153, 28%, 86%);
+    --secondary-button-fill-hover:  hsl(182, 32%, 56%);
+    --secondary-button-fill-pressed:  hsl(182, 100%, 14%);
+    --secondary-button-fill-disabled:  hsl(152, 14%, 75%);
+
+    --response-background :hsl(182, 100%, 31%);
+    --form-background: hsl(182, 100%, 97%);
+
+    --brand-logo: hsl(182, 54%, 46%);
+}
+
+
+.brand-logo {
+max-width: 10.65%;
+}
+
+.response-box {
+  background-color: var(--response-background);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-box{
+background-color: var(--form-background);
+}
+
+.feedback-button{
+background-color: var(--primary-button);
+display: flex;
+flex-direction: column;
+justify-content:center ;
+align-items: center;
+}  
+
+.login-button{
+background-color: var(--secondary-button-fill);
+display: flex;
+flex-direction: column;
+justify-content:center ;
+align-items: center;
+}
