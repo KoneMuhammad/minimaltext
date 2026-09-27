@@ -15,8 +15,7 @@
     --secondary-button-fill-disabled:  hsl(152, 14%, 75%);
 
     --response-background :hsl(182, 100%, 31%);
-    --form-background: hsl(182, 100%, 97%);
-
+    
     --brand-logo: hsl(182, 54%, 46%);
 }
 
@@ -32,9 +31,6 @@ max-width: 10.65%;
 
 }
 
-.form-box{
-background-color: var(--form-background);
-}
 
 .feedback-button{
 background-color: var(--primary-button);
