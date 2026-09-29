@@ -1,0 +1,1 @@
+const stringexlpanation = "browser defaults, dont trust the browsers defaults"

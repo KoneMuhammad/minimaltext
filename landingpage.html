@@ -8,9 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> minimal text</title>
 
-    <link rel="stylesheet" href="/styles/container.css">
-    <link rel="stylesheet" href="/styles/components.css">
-    <link rel="stylesheet" href="/styles/text.css">
+    <link rel="stylesheet" href="./styles/container.css">
+    <link rel="stylesheet" href="./styles/components.css">
+    <link rel="stylesheet" href="./styles/text.css">
+    
 </head>
 <body>
     <header class="topbar"> 
@@ -21,21 +22,19 @@
         </nav>
     </header >
     <main class="main">
-        
+    
         <header class="header">
             <h1 class="h1">
                 Ai Talks too much <br />
                 use minimal text
             </h1>
         </header>
-           <span></span>
-           //hit backend directly
-        <form action="/typescript/aIFormSubmissionHandler.ts" id="ai-form" method="post">
+
+        <form id="ai-form" method="post" class="form">
             <label for="A I, text box, input your question here"></label>
            <input type="text" id="A I, text box, input your question here"
-           class="form">
+           class="input">
         </form>
-        
     </main>
 </body>
 </html> 

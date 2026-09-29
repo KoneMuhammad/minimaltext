@@ -3,6 +3,8 @@
     --secondary-background-light: hsl(153, 20%,80%);
     --form-background: hsl(182, 100%, 97%);
 
+    --input-bordercolor: hsl(150, 5%, 9%);
+
 }
 
 .topbar {
@@ -20,8 +22,9 @@ body {
     width: 100%;
     height: 100vh;
     background-color: var(--primary-background-light);
-    align-items:center ;
+    align-items: center;
     margin: 0;
+    font-size: 4.7vw;
 }
 
 .main {
@@ -30,7 +33,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    border-color: green;
+    border-width: 1vw;
+    border-style: solid;
+
 }
 
 .header {
@@ -40,9 +46,18 @@ body {
     flex-direction: column;
 }
 
-.form {
-   width: 59.09%;
-   height: 27.13;
-   margin-top: 27.126%;
+ .form {
+    margin-top: 27.126%;
+    background-color: aqua;
+    width: 50.71%;
+    height: 27.13;
+ }
+.input {
+   width: 100%;
+   height: 100%;
    background-color: var(--form-background);
+   border-color: var(--input-bordercolor);
+   border-width: 4px;
+   border-style: solid;
+   border-radius: 5px;
 }
