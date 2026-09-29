@@ -1,0 +1,62 @@
+:root {
+    --primary-button-background: hsl(182,100%,31%);
+    --primary-button-background-hover: hsl(182,100%,26%);
+    --primary-button-background-pressed: hsl(182,100%,14%);
+    --primary-button-background-disabled: hsl(182,20%,64%);
+
+    --secondary-button-outline: hsl(182,100%,21%);
+
+    --secondary-button-background: hsl(153,28%,86%);
+    --secondary-button-background-hover: hsl(182,50%,86%);
+    --secondary-button-background-pressed: hsl(182,32%,56%);
+    --secondary-button-background-disabled: hsl(152,14%,75%);
+
+    --response-box-background:hsl(182, 100%, 31%);
+    --response-box-active-background:hsl();
+
+    --response-box-warning-background:hsl(41,100%,20%);
+    --response-box-warning-active-background:hsl();
+
+    --response-box-error-background:hsl(359,81%,22%);
+    --response-box-error-active-background:hsl();
+
+    --response-box-text: hsl(154, 41%,90%);
+    
+}
+
+.response-box {
+    background-color: var(--response-box-background);
+    color: var(--response-box-text);
+}
+
+.feedback-button{
+background-color: var(--primary-button-background);
+}
+.feedback-button:hover{
+ background-color: var(--primary-button-background-hover);
+
+}
+.feedback-button:active{
+background-color: var(--primary-button-background-pressed);
+
+}
+.feedback-button:disabled{
+background-color: var(--primary-button-background-disabled);
+
+}
+
+
+.login-button{
+background-color: var(--secondary-button-background);
+border-color: var(--se);
+}
+.login-button:hover{
+background-color: var(--secondary-button-background-hover);
+}
+.login-button:active{
+background-color: var(--secondary-button-background-pressed);
+}
+.login-button:disabled{
+background-color: var(--secondary-button-background-disabled);
+}
+
