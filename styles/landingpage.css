@@ -1,11 +1,17 @@
 :root {
     --primary-background-light: hsl(153, 28%,86%);
     --secondary-background-light: hsl(153, 20%,80%);
-    --form-background: hsl(182, 100%, 97%);
+
+    --input-background: hsl(182, 100%, 97%);
+    --input-background-active : hsl(182, 100%, 92%);
+    --input-background-disabled : hsl(152, 29%, 87%);
+
+    --input-text-disabled : hsl(182, 100%, 92%);
 
     --input-bordercolor: hsl(150, 5%, 9%);
 
 }
+
 
 .topbar {
     height:16%;
@@ -29,13 +35,11 @@ body {
 
 .main {
     height: 44.30%;
-    width: 46.56%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-color: green;
-    border-width: 1vw;
-    border-style: solid;
+ 
 
 }
 
@@ -47,17 +51,25 @@ body {
 }
 
  .form {
-    margin-top: 27.126%;
-    background-color: aqua;
-    width: 50.71%;
+    margin-top: 20.126%;
+    width: 40.71%;
     height: 27.13;
  }
 .input {
    width: 100%;
    height: 100%;
-   background-color: var(--form-background);
+   background-color: var(--input-background);
    border-color: var(--input-bordercolor);
    border-width: 4px;
    border-style: solid;
    border-radius: 5px;
+   outline: none;
+}
+
+.input:focus {
+    background-color: var(--input-background-active);
+}
+
+.input:disabled {
+        background-color: var(--input-background-disabled);
 }
