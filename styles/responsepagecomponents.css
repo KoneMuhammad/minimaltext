@@ -11,6 +11,10 @@
     --secondary-button-background-pressed: hsl(182,32%,56%);
     --secondary-button-background-disabled: hsl(152,14%,75%);
 
+    --secondary-button-text:hsl(150,5%,9%);
+    --secondary-button-text-disabled: hsl(150,10%,65%);
+
+
     --response-box-background:hsl(182, 100%, 31%);
     --response-box-active-background:hsl();
 
@@ -24,13 +28,36 @@
     
 }
 
+.button-section{
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    width: 17.06%;
+    height: 31.2%;
+    margin-left: 70%;
+}
+
 .response-box {
     background-color: var(--response-box-background);
     color: var(--response-box-text);
+    margin-left: 25.26%;
+    height:16.50% ;
+    width: 49.47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .feedback-button{
 background-color: var(--primary-button-background);
+height: 29.71%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 }
 .feedback-button:hover{
  background-color: var(--primary-button-background-hover);
@@ -48,7 +75,13 @@ background-color: var(--primary-button-background-disabled);
 
 .login-button{
 background-color: var(--secondary-button-background);
-border-color: var(--se);
+border-color: var(--secondary-button-outline);
+color: var(--secondary-button-text);
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 60%;
+height: 18.21%;
 }
 .login-button:hover{
 background-color: var(--secondary-button-background-hover);
@@ -58,5 +91,6 @@ background-color: var(--secondary-button-background-pressed);
 }
 .login-button:disabled{
 background-color: var(--secondary-button-background-disabled);
+color: var(--secondary-button-text-disabled);
 }
 

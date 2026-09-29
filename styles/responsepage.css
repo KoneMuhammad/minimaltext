@@ -32,15 +32,6 @@ body {
     font-size: 4.7vw;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: ;
-    width: 100%;
-}
-
-
 
 .input {
    width: 100%;
