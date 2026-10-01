@@ -12,6 +12,14 @@
 
 }
 
+body {
+    opacity: 1;
+    transition: opacity 500ms ease;
+}
+
+body.page-exit {
+    opacity: 0;
+}
 
 .topbar {
     height:16%;
